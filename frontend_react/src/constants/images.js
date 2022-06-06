@@ -34,6 +34,10 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import cloudtalk from '../assets/cloudtalk-logo.webp';
+import call_logo from '../assets/call-logo.png';
+import email_logo from '../assets/email_logo.png';
+import LinkedinMessage_Logo from '../assets/LinkedinMessage_Logo.png';
 
 export default {
   email,
@@ -69,4 +73,8 @@ export default {
   nb,
   skype,
   spotify,
+  cloudtalk,
+  call_logo,
+  email_logo,
+  LinkedinMessage_Logo
 };

@@ -9,11 +9,13 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false);
   return (
     <nav className='app__navbar' >
-        <div className='app__navbar-logo'>         
+        <div className='app__navbar-logo'>
+            <a href="#home">         
             <img src={images.logo} alt="Logo" />
+            </a>
         </div>
         <ul className='app__navbar-links'>
-            {['home', 'about', 'contact', 'work', 'skills', 'contact' ].map((item, index) => {
+            {['home', 'about', 'testimonial', 'work', 'skills', 'contact' ].map((item, index) => {
                 return (
                     <li className='app__flex p-text' key={`link-${index}`}>
                         <div />
@@ -33,7 +35,7 @@ const Navbar = () => {
                 >
                     <HiOutlineX onClick={() => setToggle(false)} />
                     <ul>
-                        {['home', 'about', 'contact', 'work', 'skills', 'contact' ].map((item) => (
+                        {['home', 'about', 'testimonial', 'work', 'skills', 'contact' ].map((item) => (
                                 <li key={item}>
                                     <a onClick={() => setToggle(false)} href={`#${item}`}>
                                         {item}

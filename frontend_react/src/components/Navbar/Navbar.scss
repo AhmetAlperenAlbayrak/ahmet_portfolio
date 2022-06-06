@@ -5,8 +5,8 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 1rem 2rem;
-    background: rgba(255, 255, 255, 0.25);
+    padding: 0.5rem 2rem;
+    background: rgba(1, 204, 255, 0.25);
     backdrop-filter: blur(4px);
     --webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -20,12 +20,12 @@
     align-items: center;
 
     img {
-        width: 90px;
-        height: 20px;
+        width: 55px;
+        height: 55px;
 
         @media screen and (min-width: 2000px) {
-            width: 180px;
-            height: 40px;
+            width: 100px;
+            height: 100px;
         }
         }
     }
