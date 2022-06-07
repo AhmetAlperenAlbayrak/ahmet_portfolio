@@ -25,20 +25,20 @@ const Header = () => (
       >
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
-            <span>👋</span>
+            <span><img className='badge-cmp-img' src={images.hello} /></span>
             <div style={{marginLeft: 20}}>
-              <p className="p-text">Hello,I am</p>
-              <h1 className="head-text">Ahmet Alperen Albayrak</h1>
+              <p className="p-text">HELLO, I AM</p>
+              <h1 className="head-text">A. Ahmet Albayrak</h1>
             </div>
           </div>
 
           <div className="tag-cmp app-flex">
-            <p className="p-text">Sales Development Representative</p>
-            <p className="p-text">Web Developer</p>
+            <p className="p-text">Sales Development Rep. by Cloudtalk</p>
+            <p className="p-text">Web Developer by myself</p>
           </div>
 
           <div className="tag-cmp app-flex">
-            <p className="p-text">This Website is solely for sales purposes</p>
+            <p className="p-text">Welcome to the website of the first SDR in the world who created his own website.</p>
           </div>
         </div>
       </motion.div>
