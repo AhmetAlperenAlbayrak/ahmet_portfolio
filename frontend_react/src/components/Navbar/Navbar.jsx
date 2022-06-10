@@ -15,7 +15,7 @@ const Navbar = () => {
             </a>
         </div>
         <ul className='app__navbar-links'>
-            {['home', 'about', 'testimonial', 'work', 'skills', 'contact' ].map((item, index) => {
+            {['home', 'about', 'testimonials', 'examplify', 'skills', 'contact' ].map((item, index) => {
                 return (
                     <li className='app__flex p-text' key={`link-${index}`}>
                         <div />
@@ -35,7 +35,7 @@ const Navbar = () => {
                 >
                     <HiOutlineX onClick={() => setToggle(false)} />
                     <ul>
-                        {['home', 'about', 'testimonial', 'work', 'skills', 'contact' ].map((item) => (
+                        {['home', 'about', 'testimonials', 'Examplify', 'skills', 'contact' ].map((item) => (
                                 <li key={item}>
                                     <a onClick={() => setToggle(false)} href={`#${item}`}>
                                         {item}

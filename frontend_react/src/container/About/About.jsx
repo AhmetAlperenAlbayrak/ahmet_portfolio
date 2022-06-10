@@ -20,7 +20,7 @@ const About = () => {
   return (
     <>
     <h2 className="head-text">
-      I Know that <span>Sales</span> <br /> means <span>Creativity</span>
+      Get to <span>know</span> me 😁 <br /> You won't <span>regret</span> it
     </h2>
 
     <div className="app__profiles">

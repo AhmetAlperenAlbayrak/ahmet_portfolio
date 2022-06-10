@@ -9,6 +9,11 @@ export default {
             type:'string'
         },
         {
+            name:'company',
+            title:'Company',
+            type:'string'
+        },
+        {
             name:'email',
             title:'Email',
             type:'string'
