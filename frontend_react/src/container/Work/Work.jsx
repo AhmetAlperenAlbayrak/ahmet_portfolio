@@ -59,7 +59,7 @@ const Work = () => {
         className="app__work-portfolio"
       >
         {filterWork.map((work, index) => (
-          <div className="app__work-item app__flex" key={index}>
+          <article className="app__work-item app__flex" key={index}>
             <div
               className="app__work-img app__flex"
             >
@@ -89,10 +89,10 @@ const Work = () => {
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
 
               <div className="app__work-tag app__flex">
-                <p className="p-text">{work.tags[0]}</p>
+                <p className="p-text">{work.tags[1]}</p>
               </div>
             </div>
-          </div>
+          </article>
         ))}
       </motion.div>
     </>
@@ -101,6 +101,6 @@ const Work = () => {
 
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
-  'examplify',
+  'casetalk',
   'app__primarybg',
 );

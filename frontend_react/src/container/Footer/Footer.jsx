@@ -39,6 +39,33 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">Take a coffee & chat with me</h2>
+      <div className="app__footer-badge">
+          <div className="tag-cmp app-flex">
+            <h3 className='title-text'>Personal Reasons</h3>
+            <p className="p-text">Getting international phone numbers</p>
+            <br />
+            <p className="p-text">Improving your int. teams communication</p>
+            <br />
+            <p className="p-text">Keep your customers happy</p>
+            <br />
+            <p className="p-text">Value your customer support agents</p>
+            <br />
+            <p className="p-text">Create more time for your sales team</p>
+          </div>
+
+          <div className="tag-cmp app-flex">
+          <h3 className='title-text'>Business Related</h3>
+            <p className="p-text">Getting international phone numbers</p>
+            <br />
+            <p className="p-text">Improving your int. teams communication</p>
+            <br />
+            <p className="p-text">Keep your customers happy</p>
+            <br />
+            <p className="p-text">Value your customer support agents</p>
+            <br />
+            <p className="p-text">Create more time for your sales team</p>
+          </div>
+       </div>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
