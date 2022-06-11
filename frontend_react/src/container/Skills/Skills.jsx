@@ -25,7 +25,7 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text">Skills & Experiences</h2>
+      <h2 className="head-text">Skills & <span>Personal</span> Experiences</h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -60,7 +60,7 @@ const Skills = () => {
                   <>
                     <motion.div
                       whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
+                      transition={{ duration: 0.75 }}
                       className="app__skills-exp-work"
                       data-tip
                       data-for={work.name}
