@@ -42,28 +42,28 @@ const Footer = () => {
       <div className="app__footer-badge">
           <div className="tag-cmp app-flex">
             <h3 className='title-text'>Personal Reasons</h3>
-            <p className="p-text">Getting international phone numbers</p>
+            <p className="p-text">Just want to get to know you 🫂</p>
             <br />
-            <p className="p-text">Improving your int. teams communication</p>
+            <p className="p-text">Mutual experience exchange 🤝</p>
             <br />
-            <p className="p-text">Keep your customers happy</p>
+            <p className="p-text">Want to be share my experience 🤓</p>
             <br />
-            <p className="p-text">Value your customer support agents</p>
+            <p className="p-text">Need to get out of my comfort zone 🧐</p>
             <br />
-            <p className="p-text">Create more time for your sales team</p>
+            <p className="p-text">Something else 😐</p>
           </div>
 
           <div className="tag-cmp app-flex">
           <h3 className='title-text'>Business Related</h3>
-            <p className="p-text">Getting international phone numbers</p>
+            <p className="p-text">Setup customized customer support center 🦸‍♂️</p>
             <br />
-            <p className="p-text">Improving your int. teams communication</p>
+            <p className="p-text">Increasing productivity of my Sales team 🤌</p>
             <br />
-            <p className="p-text">Keep your customers happy</p>
+            <p className="p-text">Interconnect my global business 🤗</p>
             <br />
-            <p className="p-text">Value your customer support agents</p>
+            <p className="p-text">180+ International Numbers, I am in. 🤯</p>
             <br />
-            <p className="p-text">Create more time for your sales team</p>
+            <p className="p-text">Have/Had bad experience, convince me 😲</p>
           </div>
        </div>
 
@@ -78,9 +78,9 @@ const Footer = () => {
         </div>
       </div>
       {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
+        <form className="app__footer-form app__flex">
           <div className="app__flex">
-            <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} required />
+            <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
           </div>
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Company" name="company" value={company} onChange={handleChangeInput} />
@@ -98,7 +98,7 @@ const Footer = () => {
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
-        </div>
+        </form>
       ) : (
         <div>
           <h3 className="head-text">
