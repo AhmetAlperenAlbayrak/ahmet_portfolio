@@ -78,7 +78,15 @@ const Footer = () => {
         </div>
       </div>
       {!isFormSubmitted ? (
-        <form className="app__footer-form app__flex">
+        <form 
+        className="app__footer-form app__flex"
+        name="contact" netlify 
+        netlify-honeypot="bot-field" 
+        hidden
+        method='POST'
+        data-netlify-recaptcha="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
           </div>
@@ -97,7 +105,10 @@ const Footer = () => {
               onChange={handleChangeInput}
             />
           </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
+          <button type="button" className="p-text g-recaptcha" onClick={handleSubmit} 
+          data-sitekey="reCAPTCHA_site_key" 
+          data-callback='onSubmit' 
+          data-action='submit'>{!loading ? 'Send Message' : 'Sending...'}</button>
         </form>
       ) : (
         <div>
