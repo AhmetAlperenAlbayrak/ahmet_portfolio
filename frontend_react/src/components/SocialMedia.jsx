@@ -6,13 +6,13 @@ const SocialMedia = () => {
   return (
     <div className='app__social'>
         <div>
-            <BsLinkedin />
+            <a href="https://www.linkedin.com/in/ahmetalperenalbayrak/" target="_blank" rel='noreferrer' style={{paddingTop:'0.2rem'}}><BsLinkedin /></a>
         </div>
         <div>
-            <BsGithub />
+            <a href="https://github.com/AhmetAlperenAlbayrak" target="_blank" rel='noreferrer' style={{paddingTop:'0.2rem'}} ><BsGithub /></a>
         </div>
         <div>
-            <BsEnvelopeFill />
+            <a href="mailto:ahmet.albayrak@cloudtalk.io" target="_blank" rel='noreferrer' style={{paddingTop:'0.2rem'}} ><BsEnvelopeFill /></a>
         </div>
     </div>
   )
