@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Take a <span>coffee & chat</span> with me</h2>
       <div className="app__footer-badge">
           <div className="tag-cmp app-flex">
             <h3 className='title-text'>Personal Reasons</h3>
@@ -17,11 +17,11 @@ const Footer = () => {
             <br />
             <p className="p-text">Mutual experience exchange 🤝</p>
             <br />
-            <p className="p-text">Want to be share my experience 🤓</p>
+            <p className="p-text">I want to have a website like this 🤓</p>
             <br />
             <p className="p-text">Need to get out of my comfort zone 🧐</p>
             <br />
-            <p className="p-text">Something else 😐</p>
+            <p className="p-text">Something else 🧐</p>
           </div>
 
           <div className="tag-cmp app-flex">
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">+1 (123) 456-7890</a>
+          <a href="tel:+1 (123) 456-7890" className="p-text">Coming Soon</a>
         </div>
       </div>
       <ContactForm/>

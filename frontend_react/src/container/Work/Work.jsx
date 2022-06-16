@@ -39,10 +39,10 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">Look into <span>Customer Stories</span> to find out,I can help you or not 🤔</h2>
+      <h2 className="head-text">Look into <span>#theAtalks</span> to find out,I can help you or not 🤔</h2>
 
       <div className="app__work-filter">
-        {['Financial Services', 'Education', 'Transportation', 'IT-Security', 'Health' , 'Automotive' , 'Information Technology' , 'Hospitality' , 'E-Commerce' , 'Digital Marketing' , 'All'].map((item, index) => (
+        {['Web Development', 'Be Like SDR', 'My Journey', 'Announcement', 'CloudTalk' , 'Knowledge Sharing' , 'Comfort Zone' , 'Personal Branding' , 'Fun' , 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -101,6 +101,6 @@ const Work = () => {
 
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
-  'casetalk',
+  'theatalks',
   'app__primarybg',
 );
